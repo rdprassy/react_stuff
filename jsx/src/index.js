@@ -4,6 +4,8 @@ import React from 'react';
 // import <varible_stored_library' form 'library'
 import ReactDOM from 'react-dom';
 
+const dummy = { a: 'there'};
+
 function getButtonText() {
     return "from_the_function"
 }
@@ -14,12 +16,12 @@ const App  =() => {
 
     return (
         <div>
-            <label class="label" for="name">
+            <label className="label" htmlFor="name">
                 Enter name:
             </label>
             <input id="name" type = "text" />
             <button style={{backgroundColor: 'blue', color: 'white'}}>
-                Submit {buttonText} {getButtonText()}
+                Submit {buttonText} {getButtonText()} {dummy.a}
             </button>
         </div>);
 };
