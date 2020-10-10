@@ -9,8 +9,8 @@ const App = () => {
 
     return (
         <div className="ui container comments">
-          <CommentDetail author="rdz"/>
-          <CommentDetail author="rdprassy"/>
+          <CommentDetail author="rdz" timeAgo="Today at 4:45PM" post="First Post" avatar={faker.image.avatar()} />
+          <CommentDetail author="rdprassy" timeAgo="Today at 6:45PM" post="Second Post" avatar={faker.image.avatar()} />
         </div>
 
     )
