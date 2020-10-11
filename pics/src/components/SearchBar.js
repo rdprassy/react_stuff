@@ -19,6 +19,8 @@ class SearchBar extends React.Component {
     onFormSubmit = (event) => {
         event.preventDefault()
       console.log(this.state.term) //returns error but why
+
+        this.props.onSubmit(this.state.term);
     }
 
 
@@ -28,7 +30,7 @@ class SearchBar extends React.Component {
 
             {/*other way of solving the this problem*/}
             {/*<form onSubmit={event => this.onFormSubmit(event)}*/}
-            
+
 
             <div className= "field">
 
