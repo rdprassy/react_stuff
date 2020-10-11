@@ -22,7 +22,7 @@ class SearchBar extends React.Component {
             <div className= "field">
 
         <label> Image Search </label>
-            <input type = "text" value={this.state.term} onClick={this.onInputClick} onChange= {(e) => this.setState({term: e.target.value})} />
+            <input type = "text" value={this.state.term} onClick={this.onInputClick} onChange= {(e) => this.setState({term: e.target.value.toUpperCase()})} />
             {/*// can also be called*/}
             {/*    // onChange= {(e) => console.log(e.target.value)}*/}
             </div>
