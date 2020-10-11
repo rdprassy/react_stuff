@@ -9,6 +9,8 @@ class SearchBar extends React.Component {
 
     }
 
+    state= { term: ''};
+
     onInputClick(event) {
         console.log('input is clicked');
 
@@ -20,7 +22,7 @@ class SearchBar extends React.Component {
             <div className= "field">
 
         <label> Image Search </label>
-            <input type = "text" onClick={this.onInputClick} onChange= {(e) => console.log(e.target.value)} />
+            <input type = "text" value={this.state.term} onClick={this.onInputClick} onChange= {(e) => this.setState({term: e.target.value})} />
             {/*// can also be called*/}
             {/*    // onChange= {(e) => console.log(e.target.value)}*/}
             </div>
