@@ -9,7 +9,9 @@ import SearchBar from "./SearchBar";
 
 class App extends React.Component{
 
-    async onSearchSubmit(term){
+    state = { images: []}
+
+    onSearchSubmit= async (term) => {
         console.log(term);
 
         const response = await axios.get('https://api.unsplash.com/search/photos', {
@@ -20,6 +22,12 @@ class App extends React.Component{
         });
 
         console.log(response.data.results)
+        console.log("lets update the state as the rest call is succesfull")
+
+        console.log(this)
+
+        this.setState({images: response.data.results})
+
 
 
         // write code for
@@ -39,7 +47,9 @@ class App extends React.Component{
     render() {
         return (
             <div className= "ui container" style={{ marginTop: '10px'}}>
-                <SearchBar onSubmit={this.onSearchSubmit}/></div>
+                <SearchBar onSubmit={this.onSearchSubmit}/>
+                Found: {this.state.images.length} images
+            </div>
         );
     }
 }
