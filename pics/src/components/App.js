@@ -9,21 +9,22 @@ import SearchBar from "./SearchBar";
 
 class App extends React.Component{
 
-    onSearchSubmit(term){
+    async onSearchSubmit(term){
         console.log(term);
 
-        axios.get('https://api.unsplash.com/search/photos', {
+        const response = await axios.get('https://api.unsplash.com/search/photos', {
             params: {query: term},
            headers: {
                Authorization: 'Client-ID hZNxX1BSxDzpmkUkFSG-tNgQoaHQO-IIvqeKDZEsM-o'
            }
-        }).then((response) => {
-            console.log(response.data.results)
-        })
+        });
+
+        console.log(response.data.results)
+
 
         // write code for
 
-      this.diffAPICall()
+      //this.diffAPICall()
 
         // another way of calling is async and wait
 
