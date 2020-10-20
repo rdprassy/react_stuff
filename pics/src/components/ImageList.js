@@ -8,7 +8,7 @@ const ImageList = (props) => {
 
 
     // shorter way
-
+    // create multiple image doms
     const images = props.images.map((image) => <ImageCard key={image.id} image={image} />)
 
     console.log(props.images)
