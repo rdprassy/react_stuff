@@ -22,6 +22,7 @@
     <list default="true" id="8ce48dd2-0bb3-497d-8d09-685a350ef309" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/songs/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/songs/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songs/src/components/SongList.js" beforeDir="false" afterPath="$PROJECT_DIR$/songs/src/components/SongList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603186094486</updated>
       <workItem from="1603186096146" duration="9937000" />
-      <workItem from="1603615156471" duration="4819000" />
+      <workItem from="1603615156471" duration="5649000" />
     </task>
     <servers />
   </component>
