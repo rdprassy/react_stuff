@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8ce48dd2-0bb3-497d-8d09-685a350ef309" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pics/src/components/ImageCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/pics/src/components/ImageCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pics/src/components/ImageList.css" beforeDir="false" afterPath="$PROJECT_DIR$/pics/src/components/ImageList.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pics/src/components/ImageList.js" beforeDir="false" afterPath="$PROJECT_DIR$/pics/src/components/ImageList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +60,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603186094486</updated>
-      <workItem from="1603186096146" duration="8156000" />
+      <workItem from="1603186096146" duration="9937000" />
+      <workItem from="1603615156471" duration="1456000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="410" y="157" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603672415878">
+      <screen x="0" y="23" width="1344" height="766" />
+    </state>
+    <state x="410" y="157" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1344.23.1920.1057/0.23.1344.766@0.23.1344.766" timestamp="1603672415878" />
   </component>
 </project>
