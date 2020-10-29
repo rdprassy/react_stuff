@@ -9,7 +9,10 @@ class UserHeader extends React.Component {
     }
 
     render() {
-        const user = this.props.users.find((user) => user.id === this.props.userId);
+        // no more sending this.props.users we are sending only this.props.user
+        //const user = this.props.users.find((user) => user.id === this.props.userId);
+
+        const {user} = this.props;
 
         if(!user){
             return null;
@@ -18,8 +21,11 @@ class UserHeader extends React.Component {
     }
 }
 
-const mapStateToProps = (state) => {
-    return {users: state.users };
+const mapStateToProps = (state, ownProps) => {
+    // instead of sending the entire users array we send only the user to component.
+    // return {users: state.users };
+
+    return {user: state.users.find(user => user.id === ownProps.userId)}
 }
 
 export default connect(mapStateToProps, {fetchUser} ) (UserHeader);
