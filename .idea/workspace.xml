@@ -21,7 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8ce48dd2-0bb3-497d-8d09-685a350ef309" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks-simple/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/hooks-simple/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks-simple/src/components/ResourceList.js" beforeDir="false" afterPath="$PROJECT_DIR$/hooks-simple/src/components/ResourceList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streams/client/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/streams/client/src/components/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -52,6 +55,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hooks-simple/src/components" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -65,7 +73,7 @@
       <workItem from="1603615156471" duration="8289000" />
       <workItem from="1603718046748" duration="4918000" />
       <workItem from="1603773435664" duration="2369000" />
-      <workItem from="1603810771658" duration="339000" />
+      <workItem from="1603810771658" duration="25809000" />
     </task>
     <servers />
   </component>
