@@ -26,13 +26,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8ce48dd2-0bb3-497d-8d09-685a350ef309" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streams/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/streams/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streams/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/streams/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streams/client/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/streams/client/src/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streams/client/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/streams/client/src/actions/types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streams/client/src/components/streams/StreamCreate.js" beforeDir="false" afterPath="$PROJECT_DIR$/streams/client/src/components/streams/StreamCreate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streams/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/streams/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translate/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/translate/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translate/src/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/translate/src/components/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translate/src/components/Field.js" beforeDir="false" afterPath="$PROJECT_DIR$/translate/src/components/Field.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +83,7 @@
       <workItem from="1604506968137" duration="19683000" />
       <workItem from="1604740026466" duration="1000" />
       <workItem from="1604740044780" duration="3152000" />
-      <workItem from="1604806397047" duration="9944000" />
+      <workItem from="1604806397047" duration="10866000" />
     </task>
     <servers />
   </component>
