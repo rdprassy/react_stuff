@@ -1,5 +1,7 @@
 import React from 'react';
 import {Field, reduxForm} from 'redux-form';
+import {connect} from 'react-redux';
+import { createStream} from '../../actions'
 
 //redux-form function behaves just like connect.
 
@@ -33,8 +35,9 @@ class StreamCreate extends React.Component {
     }
 
     // this is due to redux forms
-    onSubmit(formValues){
+    onSubmit = (formValues) =>{
         console.log(formValues)
+        this.props.createStream(formValues)
         // event.preventDefault();
     }
 
@@ -69,6 +72,17 @@ const validate = (formValues) => {
 
 
 // first argument is configuration
-export default reduxForm({
-    form: 'streamCreate', validate: validate
-})(StreamCreate);
+//one way of combining both connect and reduxForm
+// export default connect()(reduxForm({
+//     form: 'streamCreate', validate: validate
+// })(StreamCreate));
+
+
+//otherway
+
+const formWrapped = reduxForm({
+                  form: 'streamCreate', validate: validate
+              })(StreamCreate);
+
+export default connect(null, {createStream})(formWrapped);
+

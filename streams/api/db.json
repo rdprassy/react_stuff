@@ -1,0 +1,14 @@
+{
+  "streams": [
+    {
+      "title": "best",
+      "description": "Man",
+      "id": 1
+    },
+    {
+      "title": "Believe",
+      "description": "The best",
+      "id": 2
+    }
+  ]
+}

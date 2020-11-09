@@ -26,7 +26,13 @@
   <component name="ChangeListManager">
     <list default="true" id="8ce48dd2-0bb3-497d-8d09-685a350ef309" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streams/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/streams/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streams/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/streams/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streams/client/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/streams/client/src/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streams/client/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/streams/client/src/actions/types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/streams/client/src/components/streams/StreamCreate.js" beforeDir="false" afterPath="$PROJECT_DIR$/streams/client/src/components/streams/StreamCreate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streams/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/streams/client/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +84,10 @@
       <workItem from="1603773435664" duration="2369000" />
       <workItem from="1603810771658" duration="27489000" />
       <workItem from="1604404187122" duration="5479000" />
-      <workItem from="1604506968137" duration="12083000" />
+      <workItem from="1604506968137" duration="19683000" />
+      <workItem from="1604740026466" duration="1000" />
+      <workItem from="1604740044780" duration="3152000" />
+      <workItem from="1604806397047" duration="9944000" />
     </task>
     <servers />
   </component>
@@ -112,5 +121,10 @@
       <screen x="0" y="23" width="1344" height="766" />
     </state>
     <state x="410" y="157" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1344.23.1920.1057/0.23.1344.766@0.23.1344.766" timestamp="1603672415878" />
+    <state x="1916" y="23" width="863" height="927" key="find.popup" timestamp="1604807328663">
+      <screen x="1344" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1916" y="23" width="863" height="927" key="find.popup/1344.23.1920.1057/0.23.1344.770@1344.23.1920.1057" timestamp="1604807328663" />
+    <state x="370" y="163" width="604" height="490" key="find.popup/1344.23.1920.1057/0.23.1344.775@0.23.1344.775" timestamp="1604722709241" />
   </component>
 </project>
